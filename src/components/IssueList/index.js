@@ -34,7 +34,7 @@ const IssueList = ({
             <h2>{issue.title}</h2>
             <p>{issue.user.login}</p>
             <a href={issue.html_url} target="blank">
-              <i className="fa fa-external-link" />Abrir Issue
+              <i className="fa fa-external-link" />ABRIR ISSUE
             </a>
           </div>
         </Issue>

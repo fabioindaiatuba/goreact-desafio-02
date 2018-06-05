@@ -14,6 +14,7 @@ export const Header = styled.div`
   background: #fff;
   padding: 0 35px;
   align-items: center;
+  margin-bottom: 10px;
 
   select {
     height: 42px;
@@ -62,17 +63,18 @@ export const Content = styled.div`
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
+  margin-left: 10px;
 `;
 
 export const Issue = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 100px;
+  height: 70px;
   width: 25%;
   background: #fff;
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
 
   img {
     max-width: 54px;
@@ -111,7 +113,11 @@ export const Issue = styled.div`
       border-radius: 3px;
       text-decoration: none;
       font-size: 0.8em;
-      max-width: 71px;
+      max-width: 100px;
+
+      i {
+        margin-right: 5px;
+      }
     }
   }
 `;

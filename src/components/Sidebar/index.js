@@ -37,7 +37,7 @@ export default class Sidebar extends Component {
             onChange={e => this.setState({ repositoryInput: e.target.value })}
           />
           <button type="submit">
-            {this.props.loadingRepository ? <i className="fa fa-spinner fa-pulse" /> : 'OK'}
+            {this.props.loadingRepository ? <i className="fa fa-spinner fa-pulse" /> : <i className="fa fa-plus-circle" />}
           </button>
         </form>
 
